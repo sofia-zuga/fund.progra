@@ -1,0 +1,107 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Trocchi', serif;
+
+}
+
+.barra{
+    background-color: #CB6CE6;
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+.fondo1 {
+    height: 500px;
+    margin: 10px;
+}
+
+.fondo {
+    background-color: #CB6CE6;
+}
+
+.barra li {
+    padding: 20px !important;
+    border-bottom: 2px solid white;
+    text-shadow: #eeb2ff 0 0 2px;
+
+}
+
+
+.barra a:hover {
+    color: #ffffff !important;
+    border-right: 2px solid white;
+
+}
+
+video {
+    height: 100%;
+    margin: 0;
+    margin-bottom: -6px !important;
+}
+
+.fondo2 {
+    background-color: #CB6CE6;
+    padding: 20px 20px !important;
+    height: 250px;
+    margin: auto !important;
+}
+
+.fondo3 {
+    background-color: #CB6CE6;
+    height: 300px;
+    margin: auto !important;
+}
+
+.titulo1 {
+    font-weight: 700;
+    font-size: 30pt !important;
+    margin: auto;
+}
+
+.titulo2 {
+    margin: auto;
+
+}
+
+.perro1 {
+    height: 300px;
+    border-radius: 20px;
+    /* box-shadow: 0 0 50px 15px #CB6CE6; */
+}
+
+.linea{
+    width: 600px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.parallax{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+    background-image: url('../imagenes/perro5.webp');
+    background-color: #BA989A;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(37, 29, 0, 0.164);
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.piePagina {
+    background-color: #CB6CE6;
+    color: white;
+}
+
+.i1 {
+    font-size: 40px !important;
+    color: #CB6CE6;
+    padding: 0 10px;
+}
+
+.i1:hover {
+    color: #8b4c9c;
+}
