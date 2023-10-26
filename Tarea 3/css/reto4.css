@@ -1,0 +1,129 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+body {
+    background-image: url("../imagenes/wallpaper6.jpg");
+    background-blend-mode: normal;
+    background-color: cover;
+    background-position: center;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+ 
+.barra {
+    color: rgb(71, 141, 206) !important;
+    font-weight: 800;
+    position: fixed;
+    padding-top: 80px !important;
+    border-bottom: 4px solid transparent;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 30pt !important;
+
+}
+
+header {
+    backdrop-filter: blur(6px);
+
+}
+
+
+.linea {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(59, 59, 59) !important;
+    height: 2px;
+}
+
+.barra:hover {
+    position: fixed;
+    border-bottom: 4px solid rgb(40, 82, 121);
+    border-radius: 10px;
+    color: rgb(40, 82, 121) !important;
+    padding-right: 100px;
+    padding-left: 100px;
+
+
+}
+
+
+header {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.txt1 {
+    font-size: 18pt;
+    font-weight: 800;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.txt2 {
+    font-size: 18pt;
+    font-weight: 800;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.seleccion {
+    margin-top: 50px;
+    border: 2px solid transparent;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(209, 209, 209);
+    backdrop-filter: blur(6px);
+    margin-bottom: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    
+}
+
+img {
+    height: 300px !important;
+}
+
+.boton1 {
+    background-color: rgb(66, 134, 197) !important;
+    padding: 10px 40px !important;
+    color: white !important;
+    font-size: 15pt !important;
+    border: 1px solid transparent;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 50px !important;
+
+}
+
+.boton1:hover {
+    border: 1px solid rgb(0, 0, 97) !important;
+    background-color: rgb(39, 81, 121) !important;
+
+
+}
+
+.logo{
+    height: 200px !important;
+    border-radius: 20px;
+}
+
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.123);
+    color: black;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  }
+  
+select option[value="1"] {
+    background: rgb(115, 162, 206);
+}
+  
+select option[value="2"] {
+    background: rgb(115, 162, 206);
+}
+  
+select option[value="3"] {
+    background: rgb(115, 162, 206);
+}
+  

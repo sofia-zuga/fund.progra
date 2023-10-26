@@ -1,0 +1,62 @@
+
+body {
+    background-image: url("../imagenes/wallpaper.jpeg");
+    background-blend-mode: normal;
+    background-color: cover;
+    background-position: center;
+
+}
+ 
+.barra {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 800;
+    position: fixed;
+    padding-top: 80px !important;
+    border-bottom: 4px solid transparent;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 30pt !important;
+
+}
+
+header {
+    backdrop-filter: blur(6px);
+
+}
+
+.linea {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(240, 192, 255) !important;
+    height: 5px;
+}
+
+.barra:hover {
+    position: fixed;
+    border-bottom: 4px solid rgb(255, 140, 0);
+    border-radius: 10px;
+    color: rgb(255, 242, 225) !important;
+    padding-right: 100px;
+    padding-left: 100px;
+
+
+}
+
+.btn{
+    background-color: burlywood !important;
+    color: rgb(85, 48, 13) !important;
+    border: brown !important;
+    font-size: 12pt !important;
+    padding: 6px 15px !important;
+}
+
+.btn:hover {
+    background-color: blanchedalmond !important;
+}
+
+input {
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid rgb(85, 48, 13);
+    cursor: pointer;
+}

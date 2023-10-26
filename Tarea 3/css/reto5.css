@@ -1,0 +1,94 @@
+.imagen1 {
+    height: 200px !important;
+}
+
+.imagen2 {
+    height: 400px !important;
+}
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+body {
+    background-image: url("../imagenes/wallpaper5.jpg");
+    background-blend-mode: normal;
+    background-color: cover;
+    background-position: center;
+
+}
+ 
+.barra {
+    color: rgb(255, 0, 0) !important;
+    font-weight: 800;
+    position: fixed;
+    padding-top: 80px !important;
+    border-bottom: 4px solid transparent;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 30pt !important;
+
+
+}
+
+header {
+    backdrop-filter: blur(12px);
+    margin-bottom: 50px !important;
+}
+
+.linea {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(255, 0, 0) !important;
+    height: 2px;
+}
+
+.barra:hover {
+    position: fixed;
+    border-bottom: 4px solid rgb(143, 0, 0);
+    border-radius: 10px;
+    color: rgb(143, 0, 0) !important;
+    padding-right: 100px;
+    padding-left: 100px;
+
+
+}
+
+
+
+.titulo1{
+    font-size: 45pt !important;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+select {
+    padding: 10px 10px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 2px solid red;
+    width: 80%;
+}
+
+select option {
+    background-color: gray !important;
+    color: white;
+}
+
+button {
+    background-color: red !important;
+    border-radius: 50px !important;
+    color: white !important;
+    padding: 6px 50px !important;
+    width: 80%;
+
+}
+
+button:hover {
+    background-color: rgb(146, 0, 0) !important;
+}
+.texto1 {
+    font: 12pt;
+}
+

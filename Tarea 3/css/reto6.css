@@ -1,0 +1,62 @@
+
+body {
+    height: 100%;
+
+}
+ 
+.barra {
+    color: black !important;
+    font-weight: 800;
+    position: fixed;
+    padding-top: 80px !important;
+    border-bottom: 4px solid transparent;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 30pt !important;
+
+}
+
+header {
+    backdrop-filter: blur(6px);
+    background-color: rgb(230, 230, 230);
+
+}
+
+.linea {
+    width: 100% !important;
+    background-color: rgb(151, 151, 151) !important;
+    height: 3px;
+
+}
+
+.barra:hover {
+    position: fixed;
+    border-bottom: 4px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    color: rgb(255, 0, 0) !important;
+    padding-right: 100px;
+    padding-left: 100px;
+
+
+}
+
+body {
+    background-color: aliceblue;
+
+}
+
+.btncirculo {
+    padding: 15px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+}
+
+.btncirculo:hover {
+    border: 2px solid red;
+}
+
+.logo {
+    height: 150px;
+}
+
+

@@ -1,0 +1,66 @@
+
+
+.barra {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 800;
+    position: fixed;
+    padding-top: 80px !important;
+    border-bottom: 4px solid transparent;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 30pt !important;
+
+
+}
+
+header {
+    backdrop-filter: blur(12px);
+    margin-bottom: 100px !important;
+    background-image: url("../imagenes/wallpaper7.jpg");
+
+}
+
+.linea {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(5, 114, 109) !important;
+    height: 5px;
+}
+
+.barra:hover {
+    position: fixed;
+    border-bottom: 4px solid rgb(65, 221, 213);
+    border-radius: 10px;
+    color: rgb(65, 221, 213) !important;
+    padding-right: 100px;
+    padding-left: 100px;
+
+
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+map {
+    max-width: 100%;
+}
+
+
+p {
+    font-size: 18px !important;
+}
+
+body {
+    background-image: url("../imagenes/wallpaper7.jpg");
+}
+
+section {
+    backdrop-filter: blur(12px);
+    padding: 50px;
+    border: 2px solid rgb(9, 175, 167);
+    border-radius: 50px;
+    background-color: rgba(2, 41, 39, 0.288);
+
+}
+

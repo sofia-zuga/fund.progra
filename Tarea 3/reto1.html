@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/favicon.png">
+    <title>Reto #1</title>
+    <link rel="stylesheet" href="css/reto1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="container-fluid">
+        <nav class="navbar">
+            <div class="container-fluid justify-content-center pb-3 pt-2">
+              <a class="navbar-brand barra" href="index.html">Índice</a>
+            </div>
+          </nav>
+          <br> <br> <br>
+          <hr class="linea">
+    </header> 
+
+    <main>
+        <div class="container">
+            <section class="row mt-5 gx-4 gy-4 p-4">
+                <div class="col-6">
+                    <div class="banner1 text-light">
+
+                        <div class="mb-4">
+                            <div class="mb-3">
+                                <h3>Iniciar sesión</h3>
+                            </div>
+                            <div class="">¿No tienes una cuenta aún? <a href="#" class="linkColor">Regístrate</a></div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="in-txt-user">Nombre usuario*</label>
+                            <input class="form-control" id="in-txt-user" type="text" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="in-txt-pass">Contraseña*</label>
+                            <input class="form-control" id="in-txt-pass" type="password" />
+                            <div id="forgot-pass" class="pt-2">
+                                <label><a href="#" class="linkColor">¿Olvidaste la contraseña?</a></label>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <input class="form-check-input" type="radio" />
+                            <label class="form-check-label">Recuerdame en este equipo</label>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn p-2 text-light" id="btn-login" type="button">Iniciar sesión</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="text-center">
+                        <lottie-player src="https://lottie.host/37b6b9eb-8129-4f46-9d74-fbd166c86b97/YXqRemgBCG.json" autoplay loop class="container animacion"></lottie-player>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </main>
+    
+
+    <footer>
+        <h5 class="text-center fw-dark pt-4">Tarea #3 de Fundamentos de Programacion CENFOTEC</h5>
+    </footer>
+
+    <script src="js/login.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+    
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+    <script>
+        let anima = document.querySelector(".anima");
+        let animation = bodymovin.loadAnimation({
+            container: anima,
+            //trasr una animacion tipo login para agregarla al path
+            path: "https://lottie.host/37b6b9eb-8129-4f46-9d74-fbd166c86b97/YXqRemgBCG.json",
+            renderer: "svg",
+            loop: true,
+            autoplay: false,
+            name: "CENFOTEC",
+        });
+
+        anima.addEventListener("click", function(){
+            //150 es un valor de velocidad
+            animation.playSegments([0, 150], true);
+        });
+    </script>
+</body>
+</html>

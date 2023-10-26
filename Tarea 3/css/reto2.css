@@ -1,0 +1,161 @@
+
+
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url("../imagenes/wallpaper3.jpg");
+    background-blend-mode: normal;
+    background-color: cover;
+    background-position: center;
+
+}
+
+.barra {
+    color: rgb(187, 0, 0) !important;
+    font-weight: 800;
+    position: fixed;
+    padding-top: 80px !important;
+    border-bottom: 4px solid transparent;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 30pt !important;
+
+}
+
+.barra:hover {
+    position: fixed;
+    color: rgb(92, 1, 1) !important;
+    border-bottom: 4px solid rgb(92, 1, 1);
+    border-radius: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+
+}
+
+
+header {
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+
+
+h1 {
+    color: #000000;
+    font-size: 35px !important;
+    margin-top: 30px !important;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder !important;
+    color: rgb(207, 37, 37);
+}
+
+.banner1 {
+    border: 2px solid hsla(0, 0%, 100%, .7);
+    color: var(--white-color);
+    border-radius: 15px !important;
+    backdrop-filter: blur(16px);
+    padding: 15px 60px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+
+/*iconos web*/
+
+i {
+    font-size: 15px;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.titulo2 {
+    font-size: 20pt;
+}
+/*botones*/
+
+button {
+    border: none;
+    margin-left: 10px;
+    padding: 10px 26px;
+    border-radius: 100px !important;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#agregarBtn {
+    background-color:  rgb(207, 37, 37);
+    color: #fff;
+}
+
+#limpiarBtn {
+    background-color: rgb(207, 37, 37);
+    color: #fff;
+}
+
+
+#agregarBtn:hover {
+    background-color:  rgb(131, 23, 23);
+    color: #fff;
+}
+
+#limpiarBtn:hover {
+    background-color: rgb(131, 23, 23);
+    color: #fff;
+}
+
+/*tabla*/
+
+td {
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+th {
+    font-size: 18px;
+    color: #000;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+input {
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    border: 2px solid rgb(207, 37, 37) !important;
+    background-color: transparent !important;
+    border-radius: 10px !important;
+
+}
+
+input:hover {
+    border: 2px solid rgb(131, 23, 23) !important;
+}
+
+label {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    margin-right: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+footer {
+    background-color: rgb(92, 1, 1) !important;
+    color: white;
+    height: 80px;
+    position: absolute;
+    bottom: 0 !important;
+    width: 100%;
+    font-weight: lighter !important;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
