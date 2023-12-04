@@ -1,0 +1,85 @@
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.boton {
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px !important;
+    font-size: 15pt;
+    font-weight: 600 !important;
+    
+}
+
+.btn1 {
+    background-color: rgb(198, 98, 255) !important;
+    border: 1px solid rgb(198, 98, 255) !important;
+}
+
+.btn1:hover {
+    background-color: rgb(231, 203, 255) !important;
+    border: 1px solid rgb(198, 98, 255) !important;
+    
+}
+
+a:hover {
+    color: black;
+}
+
+section {
+    margin: auto !important;
+}
+
+.banner1 {
+    background-image: url("../imagenes/perro.jpg");
+    background-blend-mode: normal;
+    background-color: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 1000px rgba(58, 58, 58, 0.5);
+    position: fixed;
+}
+
+
+.titulo1 {
+    margin: auto !important;
+    font-style: italic;
+    font-weight: 300;
+    color: rgb(246, 230, 255) !important;
+}
+
+.sub1 {
+    color: rgb(246, 230, 255) !important;
+}
+
+.tamano {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+}
+
+.barra {
+    height: 50px;
+}
+
+.barra:hover {
+    color: rgb(198, 98, 255) !important;
+    border-bottom: 2px solid rgb(198, 98, 255);
+    display: inline-block;
+
+}
+
+.centrar {
+    padding: 450px 0;
+}
+
+
+.i1 {
+    font-size: 40px !important;
+    color: rgb(198, 98, 255);
+    padding: 0 10px;
+    margin-bottom: 50px;
+}
+
+.i1:hover {
+    color: #ffffff;
+}

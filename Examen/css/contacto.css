@@ -1,0 +1,222 @@
+body {
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Trocchi', serif;
+    /* font-family: 'Vina Sans', sans-serif; */
+
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    width: 50px !important;
+    height: 30px !important;
+    margin-bottom: 20px !important;
+}
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+.navbar-toggler {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.navbar-toggler-icon {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-toggler:hover {
+    background-color: #db94d7;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #000000;
+}
+
+.menu1 {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    margin: 5px 0px;
+}
+
+
+.barra{
+    background-color: #CB6CE6;
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+.fondo1 {
+    height: 500px;
+    margin: 10px;
+}
+
+.fondo {
+    background-color: #CB6CE6;
+}
+
+.barra li {
+    padding: 20px !important;
+    text-shadow: #eeb2ff 0 0 2px;
+
+}
+
+
+.barra a:hover {
+    color: #ffffff !important;
+    border-bottom: 2px solid white;
+
+}
+
+
+.piePagina {
+    background-color: #CB6CE6;
+    color: white;
+}
+
+.i1 {
+    font-size: 40px !important;
+    color: #CB6CE6;
+    padding: 0 10px;
+}
+
+.i1:hover {
+    color: #8b4c9c;
+}
+
+.boton1 {
+    background-color: #efb7ff !important;
+    padding: 10px 40px !important;
+    color: rgb(0, 0, 0) !important;
+    font-size: 15pt !important;
+    border: 1px solid transparent;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 50px !important;
+
+}
+
+.boton1:hover {
+    border: 1px solid #f3c8ff !important;
+    background-color: #753686 !important;
+    color: white !important;
+
+}
+
+
+.titulo1 {
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 50pt;
+}
+
+.sectionForm {
+    background-color: #f8f8f8;
+}
+.sectionForm .containerForm {
+    width: 80%;
+    padding: 20px;
+}
+.sectionForm .containerForm .formRow {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.sectionForm .containerForm .formRow .colForm {
+    position: relative;
+    width: 100%;
+    padding: 0px 10px;
+    margin: 30px 0px 10px;
+    transition: 0.5s;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #000;
+    font-weight: bold;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox input,
+.sectionForm .containerForm .formRow .colForm .inputBox.textarea textarea {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding: 0px 10px;
+    z-index: 1;
+    color: #000;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox .text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0px 10px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox input:focus + .text,
+.sectionForm .containerForm .formRow .colForm .inputBox input:valid + .text {
+    left: -10px;
+    top: -35px;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox .line {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    transition: 0.5s;
+    border-radius: 2px;
+    pointer-events: none;
+    background-color: #CB6CE6;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox input:focus ~ .line,
+.sectionForm .containerForm .formRow .colForm .inputBox input:valid ~ .line {
+    height: 100%;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox.textarea {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0px;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox.textarea textarea {
+    height: 100px;
+    resize: none;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox textarea:focus + .text,
+.sectionForm .containerForm .formRow .colForm .inputBox textarea:valid + .text {
+    left: -10px;
+    top: -35px;
+}
+.sectionForm .containerForm .formRow .colForm .inputBox textarea:focus ~ .line,
+.sectionForm .containerForm .formRow .colForm .inputBox textarea:valid ~ .line {
+    height: 100%;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.alertaRoja{
+    color: #ff0000;
+    font-weight: 500;
+    font-size: 18px;
+}
+.alertaAzul{
+    color: rgb(0, 119, 255);
+    font-weight: 500;
+    font-size: 18px;
+}

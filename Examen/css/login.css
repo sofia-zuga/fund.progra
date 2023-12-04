@@ -1,0 +1,99 @@
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+.cursor { 
+    cursor: pointer;
+}
+
+
+.usuario {
+    width: 70%;
+}
+
+a {
+    font-weight: bold;
+    color: rgb(160, 113, 202) !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(160, 113, 202) !important;
+
+}
+
+input:checked {
+    background-color: rgb(160, 113, 202) !important;
+}
+
+input,
+select {
+    cursor: pointer;
+    
+}
+
+input:hover {
+   border: 1px solid rgb(160, 113, 202) !important;
+}
+
+
+/*estilo que permite mostrar los campos validados con un borde de color rojo*/
+
+.error {
+    border: red solid 1px;
+}
+
+button {
+    background-color: rgb(198, 98, 255) !important;
+    border: 1px solid rgb(198, 98, 255) !important;
+    width: 100%;
+    font-size: 16pt;
+    font-weight: 600 !important;
+
+}
+
+button:hover {
+    background-color: rgb(231, 203, 255) !important;
+    border: 1px solid rgb(198, 98, 255) !important;
+    color: black !important;
+}
+
+#forgot-pass {
+    font-weight: bold;
+    text-align: end;
+    font-size: 12px;
+}
+
+.barra {
+    height: 50px;
+}
+
+.barra:hover {
+    color: rgb(198, 98, 255) !important;
+    border-bottom: 2px solid rgb(198, 98, 255);
+    display: inline-block;
+
+}
+
+.banner1 {
+    background-image: url("../imagenes/stamp.avif");
+    background-blend-mode: normal;
+    background-color: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 1000px rgba(24, 24, 24, 0.7);
+    position: fixed;
+    height: 100%;
+
+}
+
+
+.bg1 {
+    background-color: rgb(207, 207, 207) !important;
+    border-radius: 10px !important;
+    margin: 0 500px !important;
+    box-shadow: 0 0 20px 5px rgba(136, 130, 139, 0.726) !important;
+}

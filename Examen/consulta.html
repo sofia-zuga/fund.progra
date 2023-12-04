@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+<head>
+    <meta charset="UTF-8">
+    <link href="imagenes/guato.png" rel="icon" class="logo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Consulta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6df3345e67.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link rel="stylesheet" href="css/consultas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,500;1,600&family=Trocchi&family=Vina+Sans&display=swap" rel="stylesheet">
+
+</head>
+ 
+<body>
+    <header> 
+        
+        <nav class="navbar navbar-expand-lg barra">
+            <div class="container">
+
+               <!-- MENU hamburguesa -->
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon">
+                       <div class="menu1"></div>
+                       <div class="menu1"></div>
+                       <div class="menu1"></div>
+               </button>
+               <!-- cierre -->
+       
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mx-auto mb-2 mb-md-0 text-center">
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link text-dark optmenu" aria-current="page" href="homepage.html">Inicio</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark optmenu" href="#" id="desplegable1" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+
+                            <div class="dropdown-menu text-left" aria-labelledby="desplegable1">
+                                <a class="dropdown-item optmenu" href="grooming.html">Grooming</a>
+                                <a class="dropdown-item optmenu" href="consulta.html">Consultas</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link text-dark optmenu" aria-current="page" href="nosotros.html">Nosotros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link text-dark optmenu" aria-current="page" href="equipo.html">Equipo</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link text-dark optmenu" aria-current="page" href="contacto.html">Contácto</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link text-dark optmenu" aria-current="page" href="encuesta.html">Encuesta</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+    <section class="container-fluid pt-5 fondo pb-5" id="">
+
+        <div class="container seleccion pb-5 pt-5">
+            <h1 class="text-center text-light pt-4 titulo1">Servicios de Consultas</h1>
+    
+        </div>
+    </section>
+
+    <section class="container-fluid seleccion1">
+        <div class="">
+            <div class="container">
+                <div class="col-12 text-center">
+
+                </div>
+                <p class="text-left pt-5">Les ofrecemos las siguientes consultas:</p>
+                <div class="col-12">
+            
+
+
+                    <select name="vetOpciones" id="vetOpciones" class="form-select form-select-lg mb-5">
+                        <option value="" class="opcion0">Seleccionar una consulta</option>
+                        <option value="anual" class="opcion1">Consulta Anual</option>
+                        <option value="gripe" class="opcion2">Gripe</option>
+                        <option value="enfermedad" class="opcion3">Enfermedad</option>
+                        <option value="dental" class="opcion4">Lavado dental</option>
+
+                    </select>
+
+
+                </div>
+            </div>
+
+
+
+            <div class="galeriaFotos fondo1 mb-5 galeriaConsulta pt-4 pb-5">
+                <div class="tz-gallery">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <h3>Consulta Anual</h3>
+                        </div>
+
+                        <div class="col-12">
+                            <p>Consulta Anual de revision para su mascota</p>
+                        </div>
+
+                        <div class="col-12 text-center">
+                            <img src="imagenes/dog.jpg" alt="perro" class="img2">
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="inputs pt-4">
+                                    <h2 class="pb-3">Mascotas</h2>
+                                    <h4>Cantidad de mascotas</h4>
+                                    <select name="cantidad" id="cantidad">
+                                        <option selected disabled>Seleccione la cantidad de mascotas:</option>
+                                        <option>1</option>
+                                        <option>2-3</option>
+                                        <option>4-5</option>
+                                        <option>+5</option>
+                                    </select>
+
+                                    <div class="pt-3"></div>
+                                    <h4>Vacunas</h4>
+                                    <select name="vacunas" id="vacunas">
+                                        <option selected disabled>Seleccione si ocupa sus vacunas anuales:</option>
+                                        <option>Si</option>
+                                        <option>No</option>
+                                    </select>
+
+                                    <div class="col-12">
+                                        <div class="text-center pt-5">
+                                            <img src="imagenes/guato.png" alt="Logo" id="imagen" class="imagen2">
+                                        </div>
+                                    </div>
+
+                                    <div class="pt-5 text-center">
+                                        <button type="button" class="btn boton1" onclick="calcular()">Calcular</button>
+                                        <button type="button" class="btn"><a href="contacto.html" class="boton">Contáctenos</a></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="galeriaFotos fondo1 mb-5 galeriaGripe pt-4 pb-5">
+                <div class="tz-gallery">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <h3>Consulta por Gripe/Alergias</h3>
+                        </div>
+
+                        <div class="col-12">
+                            <p>Consulta por gripe o alergias de tu mascota</p>
+                        </div>
+
+                        <div class="col-12">
+                            <img src="imagenes/sick.jpg" alt="perro" class="img2">
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="inputs pt-4">
+                                    <h2 class="pb-3">La consulta tiene un costo de $35000</h2>
+
+
+                                    <div class="col-12">
+                                        <div class="text-center pt-5">
+                                            <img src="imagenes/guato.png" alt="Logo" id="imagen" class="imagen2">
+                                        </div>
+                                    </div>
+
+                                    <div class="pt-5 text-center">
+                                        <button type="button" class="btn"><a href="contacto.html" class="boton">Contáctenos</a></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="galeriaFotos fondo1 mb-5 galeriaEnfermedad pt-4 pb-5">
+                <div class="tz-gallery">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <h3>Consulta por Enfermedad</h3>
+                        </div>
+
+                        <div class="col-12">
+                            <p>Consulta por Enfermedad de tu mascota</p>
+                        </div>
+
+                        <div class="col-12">
+                            <img src="imagenes/sick2.jpg" alt="perro" class="img2">
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="inputs pt-4">
+                                    <h2 class="pb-3">La consulta tiene un costo de $45000</h2>
+
+
+                                    <div class="col-12">
+                                        <div class="text-center pt-5">
+                                            <img src="imagenes/guato.png" alt="Logo" id="imagen" class="imagen2">
+                                        </div>
+                                    </div>
+
+                                    <div class="pt-5 text-center">
+                                        <button type="button" class="btn"><a href="contacto.html" class="boton">Contáctenos</a></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="galeriaFotos fondo1 mb-5 galeriaDental pt-4 pb-5">
+                <div class="tz-gallery">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <h3>Lavado Dental</h3>
+                        </div>
+
+                        <div class="col-12">
+                            <p>Lavado dental completo para tu mascota</p>
+                        </div>
+
+                        <div class="col-12">
+                            <img src="imagenes/dog.jpg" alt="perro" class="img2">
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="inputs pt-4">
+                                    <h2 class="pb-3">El lavado dental tiene un costo de $52000</h2>
+
+
+                                    <div class="col-12">
+                                        <div class="text-center pt-5">
+                                            <img src="imagenes/guato.png" alt="Logo" id="imagen" class="imagen2">
+                                        </div>
+                                    </div>
+
+                                    <div class="pt-5 text-center">
+                                        <button type="button" class="btn"><a href="contacto.html" class="boton">Contáctenos</a></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    
+                    </div>
+                </div>
+            </div>
+
+        </div>   
+
+    </section>
+
+    <section>
+        <div class="col-12 text-center">
+            <lottie-player src="https://lottie.host/a1c73ef2-c1d8-4134-8286-9f8a13b56e7a/hxcFBmmIth.json" autoplay loop style="width: 50%;" class="container"></lottie-player>
+        </div>
+    </section>
+
+    
+
+    <section class="container-fluid pb-1 pt-1" id="">
+
+        <div class="container text-center pb-5 pt-5">
+            <div class="row pt-2">
+
+                <div class="social-icons text-center pt-5">
+                    <p class="fs-3 text fw-bold title2">Síguenos en nuestras redes sociales</p>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook i1"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram i1"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+   
+    <footer class="container-fluid piePagina">
+        <div class="row">
+            <div class="text-center"><br>
+                <h2 class="text-center fs-4 pt-5 pb-5">Derechos Reservados a Veterinaria El Guato</h2>
+            </div>    
+        </div>
+    </footer>
+
+    <a data-scroll id="flechabtn" class="goto-top" href="#" title="Ir al inicio" onclick="topFunction()">
+        <img src="imagenes/arrow.png" alt="Flecha para ir al inicio" class="img-fluid goto-top">
+    </a>
+
+    <script src="https://kit.fontawesome.com/b28eb6df67.js" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/consultas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <!-- cambia la velocidad y acelaracion usando JS -->
+    <script src="js/smooth-scroll.min.js"></script>
+    <!-- desplazamiento suave -->
+    <script src="js/elastico.js"></script>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+    
+
+</body>
+
+</html>
