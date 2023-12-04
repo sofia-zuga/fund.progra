@@ -1,0 +1,189 @@
+ 
+ body {
+    /* font-family: 'Raleway', sans-serif; */ 
+    font-family: 'Trocchi', serif;
+    /* font-family: 'Vina Sans', sans-serif; */
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+.bandera {
+    width: 30px !important;
+}
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+.navbar-toggler {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.navbar-toggler-icon {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-toggler:hover {
+    background-color: #db94d7;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #000000;
+}
+
+.menu1 {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    margin: 5px 0px;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    width: 50px !important;
+    height: 30px !important;
+    margin-bottom: 20px !important;
+}
+
+
+.barra{
+    background-color: #CB6CE6;
+    font-size: 16pt;
+    font-weight: 600;
+    width: 100% !important;
+    margin: 0;
+}
+
+.barra li {
+    padding: 20px !important;
+    text-shadow: #eeb2ff 0 0 2px;
+
+}
+
+
+.barra a:hover {
+    color: #ffffff !important;
+    border-bottom: 2px solid white;
+
+}
+
+.fondo {
+    background-color: #CB6CE6; 
+    width: 100% !important;
+}
+
+.fondo1 {
+    height: 500px;
+    margin: 10px;
+}
+
+.piePagina {
+    background-color: #CB6CE6;
+    color: white;
+}
+
+.fondo3 {
+    background-color: #CB6CE6;
+    color: white;
+}
+
+.i1 {
+    font-size: 40px !important;
+    color: #CB6CE6;
+    padding: 0 10px;
+}
+
+.i1:hover {
+    color: #8b4c9c;
+}
+
+.boton1 {
+    background-color: #efb7ff !important;
+    padding: 10px 40px !important;
+    color: rgb(0, 0, 0) !important;
+    font-size: 15pt !important;
+    border: 1px solid transparent;
+    border-radius: 50px !important;
+
+}
+
+.boton1:hover {
+    border: 1px solid #f3c8ff !important;
+    background-color: #753686 !important;
+    padding: 10px 40px !important;
+
+    color: white !important;
+
+}
+
+input {
+    padding: 3px 30px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #f3c8ff;
+    background-color: transparent;
+}
+
+.formulario_casillas{
+    font-size: 15pt;
+}
+
+#rbtMascotas1,#rbtMascotas2, #rbtMascotas3 {
+    font-size: 35pt !important;
+}
+.dottie{
+    height: 150px;
+}
+
+
+/*tamaño del titulo del form*/
+
+.titform1 {
+    font-size: 40px !important;
+}
+
+
+
+.sct-reservaciones label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input[type=checkbox] { 
+    accent-color: black; 
+    height: 18px !important;
+
+} 
+
+input[type=radio] { 
+    accent-color: black; 
+    height: 18px !important;
+} 
+  
+select {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+legend {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#terminos_y_condiciones {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkbox_y_terminos_y_condiciones {
+    margin-top: 50px;
+}
+
+
+
+.input-error {
+    border: 3px solid rgb(132, 0, 255);
+}

@@ -1,0 +1,284 @@
+body {
+    /* font-family: 'Raleway', sans-serif; */ 
+    font-family: 'Trocchi', serif;
+    /* font-family: 'Vina Sans', sans-serif; */
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+.bandera {
+    width: 30px !important;
+}
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+.navbar-toggler {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.navbar-toggler-icon {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-toggler:hover {
+    background-color: #db94d7;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #000000;
+}
+
+.menu1 {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    margin: 5px 0px;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    width: 50px !important;
+    height: 30px !important;
+    margin-bottom: 20px !important;
+}
+
+.video1 {
+    width: 100% !important;
+}
+
+.texto{
+    margin: auto; 
+}
+
+.barra{
+    background-color: #CB6CE6;
+    font-size: 16pt;
+    font-weight: 600;
+    width: 100% !important;
+    margin: 0;
+}
+
+.fondo1 {
+    height: 500px;
+    margin: 10px;
+}
+
+.fondo {
+    background-color: #CB6CE6;
+    width: 100% !important;
+}
+
+.fondo4 {
+    background-color: #CB6CE6;
+    width: 100% !important;
+    margin: auto;
+    padding: 15px 0;
+}
+
+.barra li {
+    padding: 20px !important;
+    text-shadow: #eeb2ff 0 0 2px;
+
+}
+
+
+.barra a:hover {
+    color: #ffffff !important;
+    border-bottom: 2px solid white;
+
+}
+
+video {
+    height: 100%;
+    margin: 0;
+    margin-bottom: -6px !important;
+}
+
+.fondo2 {
+    background-color: #CB6CE6;
+    padding: 20px 20px !important;
+    height: 250px;
+    margin: auto !important;
+    width: 100%;
+}
+
+.fondo3 {
+    background-color: #CB6CE6;
+    margin: auto !important;
+    padding-bottom: 20px;
+}
+
+.titulo1 {
+    font-weight: 700;
+    font-size: 30pt !important;
+    margin: auto;
+}
+
+.titulo2 {
+    margin: auto;
+
+}
+ 
+.perro1 {
+    height: 300px;
+    border-radius: 20px;
+    /* box-shadow: 0 0 50px 15px #CB6CE6; */
+}
+
+.linea{
+    width: 600px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.parallax{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+    background-image: url('../imagenes/perro5.webp');
+    background-color: #BA989A;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(37, 29, 0, 0.164);
+    margin: 0 !important;
+    padding: 0;
+}
+
+
+.piePagina {
+    background-color: #CB6CE6;
+    color: white;
+}
+
+.i1 {
+    font-size: 40px !important;
+    color: #CB6CE6;
+    padding: 0 10px;
+}
+
+.i1:hover {
+    color: #8b4c9c;
+}
+
+
+
+#inscriptionTxt {
+    padding: 14px 40px;
+    border-radius: 25px;
+    border: none;
+}
+
+.boton1 {
+    background-color: #efb7ff !important;
+    padding: 10px 40px !important;
+    color: rgb(0, 0, 0) !important;
+    font-size: 15pt !important;
+    border: 1px solid transparent;
+    border-radius: 50px !important;
+
+}
+
+.boton1:hover {
+    border: 1px solid #f3c8ff !important;
+    background-color: #753686 !important;
+    padding: 10px 40px !important;
+
+    color: white !important;
+
+}
+
+.alertaRoja{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 22px;
+}
+.alertaVerde{
+    color: #efb7ff;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 22px;
+}
+
+
+#agregarBtn {
+    background-color:  #efb7ff ;
+    border: 1px solid transparent;
+    padding: 12px 28px;
+    border-radius: 15px;
+
+    color: #000000;
+}
+
+#limpiarBtn {
+    background-color: #efb7ff;
+    border: 1px solid transparent;
+    padding: 12px 28px;
+    border-radius: 15px;
+    color: #000000;
+}
+
+
+#agregarBtn:hover {
+    background-color:  #753686;
+    border: 1px solid #f3c8ff !important;
+
+    color: #fff;
+}
+
+#limpiarBtn:hover {
+    background-color: #753686;
+    border: 1px solid #f3c8ff !important;
+    color: #fff;
+}
+
+/*tabla*/
+
+td {
+    padding: 10px;
+    border-radius: 15px !important;
+    background-color:  #BA989A;
+
+}
+
+th {
+    font-size: 18px;
+    color: #000;
+    border-radius: 15px !important;
+    background-color:  #BA989A;
+
+}
+
+select {
+    background-color:  #efb7ff;
+    border-radius: 15px;
+    
+}
+
+input {
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid #f3c8ff !important;
+    background-color: transparent !important;
+    border-radius: 10px !important;
+
+}
+
+input:hover {
+    border: 2px solid #f3c8ff  !important;
+}
+
+label {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    margin-right: 10px;
+
+}
+
