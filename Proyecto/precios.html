@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="imagenes/guato.png" rel="icon" class="logo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6df3345e67.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link rel="stylesheet" href="css/precios.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,500;1,600&family=Trocchi&family=Vina+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        
+        <nav class="navbar navbar-expand-lg barra">
+            <div class="container">
+                <!-- MENU hamburguesa -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <div class="menu1"></div>
+                        <div class="menu1"></div>
+                        <div class="menu1"></div>
+                </button>
+                <!-- cierre -->
+       
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mx-auto mb-2 mb-md-0 text-center">
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link text-dark optmenu inicio" aria-current="page" href="index.html">Mapa de cuidado</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link text-dark optmenu inicio" aria-current="page" href="precios.html">Precios</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link text-dark optmenu nosotros" aria-current="page" href="reservacion.html">Reservación</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a data-scroll class="nav-link text-dark optmenu nosotros" aria-current="page" href="registro.html">Registro</a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+
+    
+    <section>
+        <div class="container-fluid fondo3 pb-5 pt-5">
+
+            <div class="container pb-5">
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center titulo2 pt-5">
+                    <h2 class="text-uppercase fw-bold titulo">¡Conocé nuestros precios!</h2>
+                </div>
+
+                <div class="row banner1">
+                    <div class="col-12 pt-5 pb-5">
+                        <p class="titulo2">Ingrese los siguientes datos: </p>
+                        <br>
+        
+                        <div class="input-group mb-3">
+                            <label for="nombre"> Nombre: </label>
+                            <input id="nombre" type="text" class="form-control">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label for="consulta"> Consulta: </label>
+                            <select name="consulta" id="consulta">
+                                <option selected disabled>Seleccione la consulta</option>
+                                <option value="Consulta Anual">Consulta Anual</option>
+                                <option value="Grooming">Grooming</option>
+                                <option value="Vacunas">Vacunas</option>
+                            </select>
+                        </div>
+    
+        
+        
+                        <div class="input-group mb-3">            
+                            <label for="cantidad"> Cantidad de mascotas: </label>
+        
+                            <input id="cantidad" type="number"  oninput="validity.valid||(value='')" class="form-control">
+                        </div>
+        
+                        <div class="pt-3">
+                            <button id="agregarBtn" onclick="incluir()"><i class="fas fa-plus-circle"></i> Facturar</button>
+                            <button id="limpiarBtn" onclick="limpiar()"><i class="fas fa-trash"></i> Limpiar datos</button>
+                        </div> 
+                    </div>
+        
+                <div class="row">
+                    <div class="container text-center">
+                        <table class="table table-hover table-light">
+                            <thead>
+                                <tr>
+                                    <th> Nombre del cliente</th>
+                                    <th> Servicio</th>
+                                    <th> Cantidad de mascotas</th>
+                                    <th> Precio por mascota</th>
+                                    <th> Subtotal</th>
+                                    <th> IVA 13%</th>
+                                    <th> Total a pagar</th>
+                                </tr>
+                            </thead>
+                            <!-- cuerpo de tabla -->
+                            <tbody id="tabla"></tbody>
+                        </table>
+                    </div>
+        
+                    </div>
+                </div>
+ 
+            </div>
+
+        </div>
+        
+    </section>
+
+
+
+    <section class="container-fluid pb-1 pt-5" id="">
+
+        <div class="container text-center pb-5 pt-5">
+            <div class="row pt-2">
+
+                <div class="social-icons text-center pt-5">
+                    <p class="fs-3 text fw-bold title2">Síguenos en nuestras redes sociales</p>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook i1"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram i1"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid piePagina">
+        <div class="row">
+            <div class="text-center"><br>
+                <h2 class="text-center fs-4 pt-5 pb-5 derechos">Derechos Reservados a Veterinaria El Guato</h2>
+            </div>    
+        </div>
+    </footer>
+
+
+    <a data-scroll id="flechabtn" class="goto-top" href="#" title="Ir al inicio" onclick="topFunction()">
+        <img src="imagenes/arrow.png" alt="Flecha para ir al inicio" class="img-fluid goto-top">
+    </a>
+
+    <!-- cambia la velocidad y acelaracion usando JS -->
+    <script src="js/smooth-scroll.min.js"></script>
+    <!-- desplazamiento suave -->
+    <script src="js/elastico.js"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b28eb6df67.js" crossorigin="anonymous"></script> 
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+    <script src="js/precios.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
